@@ -1,0 +1,38 @@
+html,
+body {
+   background-color: gainsboro;
+}
+
+h1 {
+   text-align: center;
+   margin-bottom: 4rem;
+}
+
+.box {
+   width: 90%;
+   max-width: 400px;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border: 2px solid gray;
+   border-radius: 5px;
+   padding: .5rem 1rem;
+}
+
+.led {
+   width: 20px;
+   height: 20px;
+   background-color: gainsboro;
+   border-radius: 50%;
+   border: 2px solid gray;
+}
+
+.led-blue {
+   background-color: blue;
+   border-color: blue;
+}
+
+.btn {
+   min-width: 100px;
+}

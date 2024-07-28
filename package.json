@@ -1,0 +1,43 @@
+{
+  "name": "package.json",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0",
+    "vite": "^5.3.4"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "rules": {
+      "semi": [
+        "error",
+        "never"
+      ],
+      "indent": [
+        "error",
+        3
+      ],
+      "no-trailing-spaces": [
+        "error",
+        {
+          "skipBlankLines": true
+        }
+      ],
+      "no-unused-vars": [
+        "error",
+        {
+          "args": "all"
+        }
+      ],
+      "no-empty-function": [
+        "error"
+      ]
+    }
+  }
+}
